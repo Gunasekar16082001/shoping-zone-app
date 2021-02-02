@@ -1,0 +1,24 @@
+.carousel-caption{
+    margin-right: 50%;
+    margin-bottom: 20%;
+}
+
+
+.primary-btn {
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: beige;
+    transition: 0.9s;
+    transition-property: background;
+
+}
+
+.primary-btn:hover{
+    background: black;
+    color: white;
+}
+
+p{
+    padding: 5px;
+}
+

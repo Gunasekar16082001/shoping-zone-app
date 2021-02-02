@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row">
+<div class="box"  *ngFor="let card of listOfCards">
+    <div class="slide-img">
+      <img src="{{card?.imageScr}}" alt="" />
+      <div class="overlay">
+        <a href="#" class="buy-btn">Buy Now</a>
+     
+      </div>
+    </div>
+    <div class="detail-box">
+      <div class="type">
+        <a href="#">{{card?.title}}</a>
+        <span>{{card?.desc}}</span>
+      </div>
+      <a href="#" class="price">{{card?.price}}</a>
+    </div>
+  </div>
+</div>
